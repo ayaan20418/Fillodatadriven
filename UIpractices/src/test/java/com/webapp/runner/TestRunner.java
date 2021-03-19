@@ -16,11 +16,11 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		plugin = { "pretty", "html:target/Html-output", "junit:target/Junit-output/index.xml",
 				"json:target/cucumber/cucumber.json" },
 
-		monochrome = true,
+		monochrome = true
 
-		strict = true,
+		
 
-		tags = "@Regression"
+		//tags = "@Regression"
 
 )
 

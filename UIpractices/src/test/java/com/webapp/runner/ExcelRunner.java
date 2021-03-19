@@ -14,8 +14,9 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		plugin = { "pretty", "html:target/Html-output", "junit:target/Junit-output/index.xml",
 				"json:target/cucumber/cucumber.json" },
 
-		monochrome = true
-		//tags = "@tag1"
+		monochrome = true,
+		strict=true,
+	tags = "@tag1"
 
 )
 
